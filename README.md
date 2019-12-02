@@ -1,2 +1,2 @@
-# kjell_bot
+# kjellbot
 the Grinders bot
