@@ -2,7 +2,7 @@
   "name": "Test",
   "description": "Test",
   "version": "0.0.0",
-  "main": "bot.js", 'NjUxMTU0MTg5OTA4NzA1MzEw.'XeVw9A.4DOqKaGKA-8PWmxAILBcCOgirs8'
+  "main": "bot.js", bot.json
   "scripts": {
     "start": "node bot.js"
   },
