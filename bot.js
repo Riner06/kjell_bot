@@ -1,16 +1,13 @@
-const Discord = require("discord.js");
-const bot = new Discord.Client();
+const Discord = require ('discord.js');
+const client = new Discord.Client();
 
-const token = "NjUwNzI0Nzg5NDg0NTE5NDQ1.XeQcJg.988evVJE2GMvUaq1fCFnes7bseM";
-
-bot.on("ready", () => {
-  console.log("bot is working");
+client.on('ready, () => {console.log('I am Ready');
 });
 
-bot.on("message", msg => {
-  if (msg.content --- "hello") {
-    msg.reply("hello");
-  }
+client.on('message', message =>) {
+if (message.content === 'hello') {
+   message.reply ('hello')
+}
 });
 
-bot.login(token);
+client.login(process.env.BOT_TOKEN);
