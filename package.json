@@ -2,9 +2,9 @@
   "name": "Test",
   "description": "Test",
   "version": "0.0.0",
-  "main": "bot.js" "bot.js",
+  "main": "nodebot.js" "nodebot.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "nodebot.js"
   },
   "dependencies":{
     "discord.js": "11.1.0",
