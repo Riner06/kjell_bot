@@ -2,7 +2,7 @@
   "name": "Test",
   "description": "Test",
   "version": "0.0.0",
-  "main": "nodebot.js" "nodebot.js",
+  "main": "bot.js" "nodebot.js",
   "scripts": {
     "start": "nodebot.js"
   },
