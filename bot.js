@@ -9,6 +9,6 @@ client.on('message', message => {
    if (message.content === 'hello') {
       message.reply ('hello')
    }
-   });
+});
 
 client.login(process.env.BOT_TOKEN);
