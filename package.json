@@ -1,7 +1,7 @@
 {
   "name": "Test",
   "description": "Test",
-  "version": "0.0.0",'T-zQpYQVggQ6C7NHE-H6eSM0reUym4A0'
+  "version": "0.0.0",651154189908705310
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
