@@ -5,7 +5,7 @@ client.on('ready', () => {
 console.log('I am Ready');
 });
 
-client.on('message', message =>) {
+client.on('message', message => {
 if (message.content === 'hello') {
    message.reply ('hello')
 }
