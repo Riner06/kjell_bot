@@ -11,7 +11,7 @@ client.on('message', message => {
    }
    else if(message.content === "fuck")
    {
-      message.messageDelete();
+      message.delete();
    }
 });
 
