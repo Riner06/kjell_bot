@@ -9,8 +9,9 @@ client.on('message', message => {
    if (message.content === 'hello') {
       message.reply ('Hello');
    }
-   else if(message.content === 'fuck'){
-      message.messageDelete();
+   if (message.content === 'fuck') {
+      message.reply("dont use bad words");
+      message.delete();
    }
 });
 
