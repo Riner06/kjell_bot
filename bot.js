@@ -9,6 +9,10 @@ client.on('message', message => {
    if (message.content === 'hello') {
       message.reply ('Hello');
    }
+   else if(message.content === "fuck")
+   {
+      message.messageDelete();
+   }
 });
 
 client.login(process.env.BOT_TOKEN);
