@@ -16,8 +16,8 @@ client.on('message', msg => {
   if (msg.content === 'Hello') {
     msg.reply('Hello!');
   }
-  if (msg.content === 'Hej Johannes') {
-    msg.reply('iron fist!');
+  if (msg.content === 'vad heter johannes') {
+    msg.reply('the ironfister');
   }
 });
    
