@@ -1,10 +1,10 @@
 const Discord = require ('discord.js');
 const client = new Discord.Client();
 
-bot.on("ready",async () => {
-    console.log(bot.user.username + " is ready");
+client.on("ready",async () => {
+    console.log(client.user.username + " is ready");
     try {
-        let link = await bot.generateInvite(["ADMINISTRATOR"]);
+        let link = await client.generateInvite(["ADMINISTRATOR"]);
         console.log(link);
     } catch(e) {
         console.log(e.stack);
