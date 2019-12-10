@@ -10,8 +10,8 @@ client.on('message', message => {
       message.reply ('Hello');
    }
   client.on('message', message => {
-   if (message.content === 'vad heter johannes') {
-      message.reply ('the Ironfister');
+   if (message.content === 'vad_heter_johannes') {
+      message.reply ('the_Ironfister');
    }
    
    
