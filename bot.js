@@ -12,15 +12,14 @@ bot.on("ready",async () => {
 
 });
 
-client.on('message', message => {
-   if (message.content === 'hello') {
-      message.reply ('Hello');
-    if (message.content === 'vad heter johannes') {
-      message.reply ('the Ironfister');
-   }
-   });
-
-   
+client.on('message', msg => {
+  if (msg.content === 'Hello') {
+    msg.reply('Hello!');
+  }
+  if (msg.content === 'Hej Johannes') {
+    msg.reply('iron fist!');
+  }
+});
    
    
    else if(message.content === "fuck")
