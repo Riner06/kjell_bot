@@ -8,11 +8,11 @@ client.on('ready', () => {
 client.on('message', message => {
    if (message.content === 'hello') {
       message.reply ('Hello');
+    if (message.content === 'vad heter johannes') {
+      message.reply ('the Ironfister');
    }
-  client.on('message', message => {
-   if (message.content === 'vad_heter_johannes') {
-      message.reply ('the_Ironfister');
-   }
+   });
+
    
    
    
