@@ -1,8 +1,15 @@
 const Discord = require ('discord.js');
 const client = new Discord.Client();
 
-client.on('ready', () => {
-   console.log('I am Ready');
+bot.on("ready",async () => {
+    console.log(bot.user.username + " is ready");
+    try {
+        let link = await bot.generateInvite(["ADMINISTRATOR"]);
+        console.log(link);
+    } catch(e) {
+        console.log(e.stack);
+    }
+
 });
 
 client.on('message', message => {
