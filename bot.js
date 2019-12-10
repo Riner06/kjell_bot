@@ -9,6 +9,13 @@ client.on('message', message => {
    if (message.content === 'hello') {
       message.reply ('Hello');
    }
+  client.on('message', message => {
+   if (message.content === 'vad heter johannes') {
+      message.reply ('the Ironfister');
+   }
+   
+   
+   
    else if(message.content === "fuck")
    {
       message.delete();
