@@ -17,11 +17,10 @@ client.on('message', msg => {
     msg.reply('Hello!');
   }
   if (msg.content === 'vad heter johannes') {
+  }
     msg.reply('the ironfister');
-      
- client.on('message', msg => {
-  if (msg.content === 'vad heter melker') {
-    msg.reply('the Maggot');
+  if (msg.content === 'vad heter jag') {
+    msg.reply(msg.author);
   }
 });
    
