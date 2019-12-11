@@ -20,7 +20,7 @@ client.on('message', msg => {
   }
     msg.reply('the ironfister');
   if (msg.content === 'vad heter melker') {
-    msg.reply(the maggot);
+    msg.reply("the maggot");
   }
 });
    
