@@ -19,8 +19,8 @@ client.on('message', msg => {
   if (msg.content === 'vad heter johannes') {
   }
     msg.reply('the ironfister');
-  if (msg.content === 'vad heter jag') {
-    msg.reply(msg.author);
+  if (msg.content === 'vad heter melker') {
+    msg.reply(the maggot);
   }
 });
    
