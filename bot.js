@@ -13,14 +13,16 @@ client.on("ready",async () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'Hello') {
+  if (msg.content === 'Hello') 
+  {
     msg.reply('Hello!');
   }
-  if (msg.content === 'vad heter johannes') {
+  if (msg.content === 'vad heter johannes') 
+  {
+      msg.reply('the ironfister');
   }
-    msg.reply('the ironfister');
-    
-  if (msg.content === 'vad heter melker') {
+  if (msg.content === 'vad heter melker') 
+  {
     msg.reply("the maggot");
   }
 });
