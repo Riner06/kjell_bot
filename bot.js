@@ -2,6 +2,7 @@ const Discord = require ('discord.js');
 const client = new Discord.Client();
 
 client.on("ready",async () => {
+    client.user.setActivity("Talking to people")
     console.log(client.user.username + " is ready");
     try {
         let link = await client.generateInvite(["ADMINISTRATOR"]);
